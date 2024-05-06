@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "animate.css";
 
 function GameWin({ data }) {
   data(false);
@@ -29,9 +30,9 @@ function GameWin({ data }) {
   return (
     <div>
       <img
-        src="https://cdn.dribbble.com/users/309370/screenshots/11352811/media/f2fd547760af814bcf10db04a90c6f59.gif"
+        src="https://i.postimg.cc/9fQVvLJv/image-removebg-preview-17-1.png"
         alt="backgorundgif"
-        className="w-100 rounded"
+        className="w-100 rounded animate__animated animate__zoomIn"
       />
     </div>
   );
